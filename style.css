@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+    /* background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet); */
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -15,13 +15,9 @@ canvas {
 #collisionCanvas {
     opacity: 0;
 }
-/*.controls {
+#scrollingCanvas {
     position: absolute;
-    z-index: 10;
-    top: 50px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 }
-.controls, select, option {
-    font-size: 25 px;
-} */
